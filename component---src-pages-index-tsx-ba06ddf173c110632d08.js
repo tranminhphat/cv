@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{QeBL:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),r=t.n(a);n.default=function(){return r.a.createElement("div",{style:{maxWidth:640,margin:"3rem auto"}},r.a.createElement("h1",null,"Phat Tran's CV"))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-ba06ddf173c110632d08.js.map
