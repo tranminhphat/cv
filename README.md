@@ -1,1 +1,1 @@
-#My personal CV: https://tranminhphat.github.io/cv/
+My personal CV: https://tranminhphat.github.io/cv/
