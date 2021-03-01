@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 const HomePage = () => (
   <div
@@ -10,6 +11,10 @@ const HomePage = () => (
       lineHeight: 1.4,
     }}
   >
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Phat Tran's CV</title>
+    </Helmet>
     <main style={{ display: "flex", flexDirection: "column" }}>
       <div className="name">
         <h1>Tran Minh Phat</h1>
@@ -37,7 +42,7 @@ const HomePage = () => (
           <p>
             <b>github: </b>
             <span>
-              <a href="https://github.com/tranminhphat" target="_blank">
+              <a href="https://github.com/tranminhphat" target="_blank" rel="noreferrer">
                 https://github.com/tranminhphat
               </a>
             </span>
@@ -48,6 +53,7 @@ const HomePage = () => (
               <a
                 href="https://www.linkedin.com/in/tranminhphat/"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://www.linkedin.com/in/tranminhphat/{" "}
               </a>
@@ -151,7 +157,7 @@ const HomePage = () => (
             </p>
             <p>
               Demo:{" "}
-              <a href="https://phazel.firebaseapp.com/sortalgo" target="_blank">
+              <a href="https://phazel.firebaseapp.com/sortalgo" target="_blank" rel="noreferrer">
                 https://phazel.firebaseapp.com/sortalgo
               </a>
             </p>
@@ -189,6 +195,7 @@ const HomePage = () => (
               <a
                 href="https://tranminhphat.github.io/covid19-stats/"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://tranminhphat.github.io/covid19-stats/
               </a>
@@ -228,6 +235,7 @@ const HomePage = () => (
                 <a
                   href="https://drive.google.com/drive/folders/13oKOes_6y61P3mtns4zfk_CzuZu8ZZGa?usp=sharing"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   here
                 </a>
