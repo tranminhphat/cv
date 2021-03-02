@@ -176,7 +176,7 @@ const HomePage = () => (
           <div>
             <p>
               An web application built by React and Ant Design that shows the
-              affect of Covid-19 with statistical information with the data from
+              affect of Covid-19 with statistical information by the data from
               the Ministry Of Health around the world.
             </p>
             <p>
@@ -241,6 +241,20 @@ const HomePage = () => (
                 </a>
               </span>
             </p>
+          </div>
+                <div className="personal-project">
+        <div>
+          <h2>skills</h2>
+          <hr />
+          <div
+            style={{
+              marginBottom: "1rem",
+            }}
+          >
+            <p>programming languages: JavaScript, TypeScript</p>
+            <p>tools & technologies: HTML5, CSS3, React.js, Redux, Node.js, Express.js, MongoDB</p>
+          </div>
+          </div>
           </div>
         </div>
       </div>
