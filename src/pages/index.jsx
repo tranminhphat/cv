@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import FavIcon from '../static/favicon.ico'
 
 const HomePage = () => (
   <div
@@ -14,6 +15,9 @@ const HomePage = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Phat Tran's CV</title>
+      <meta name="author" content="Phat Tran" />
+      <meta name="description" content="Phat Tran's curriculum vitae" />
+      <link rel="icon" type="image/png" href={FavIcon} sizes="16x16" />
     </Helmet>
     <main style={{ display: "flex", flexDirection: "column" }}>
       <div className="name">
