@@ -4,6 +4,7 @@ module.exports = {
     description: `Phat Tran's CV made with Gatsby`,
     author: `@tranminhphat <phattm204@gmail.com>`,
   },
+  pathPrefix: "/cv",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
