@@ -6,10 +6,11 @@ const HomePage = () => (
   <div
     className="container"
     style={{
-      fontFamily: "Helvetica, Arial, sans-serif",
+      fontFamily: "Raleway, Helvetica, Arial, sans-serif",
       maxWidth: 720,
       margin: "1rem auto",
       lineHeight: 1.4,
+      fontWeight: 300,
     }}
   >
     <Helmet>
@@ -18,48 +19,46 @@ const HomePage = () => (
       <meta name="author" content="Phat Tran" />
       <meta name="description" content="Phat Tran's curriculum vitae" />
       <link rel="icon" type="image/png" href={FavIcon} sizes="16x16" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap" rel="stylesheet" />
     </Helmet>
+
     <main style={{ display: "flex", flexDirection: "column" }}>
-      <div className="name">
-        <h1>Tran Minh Phat</h1>
+      <div className="name" style={{textAlign: 'center'}}>
+        <h1 style={{fontWeight: 100, fontSize: '50px'}}>Tran Minh <span style={{fontWeight: 500}}>Phat</span></h1>
       </div>
 
       <div
         className="contact-info"
-        style={{ display: "flex", flexDirection: "column" }}
+        style={{ display: "flex", flexDirection: "column", marginTop: '-40px' }}
       >
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div style={{ display: "flex", justifyContent: "space-around" }}>
           <p>
-            <b>location: </b>
             <span>Ho Chi Minh City, Viet Nam</span>
           </p>
           <p>
-            <b>phone number: </b>
             <span>(+84) 909771795</span>
           </p>
           <p>
-            <b>email: </b>
             <span>phattm204@gmail.com</span>
           </p>
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div style={{ display: "flex", justifyContent: "space-around", marginTop: '-20px' }}>
           <p>
-            <b>github: </b>
             <span>
               <a href="https://github.com/tranminhphat" target="_blank" rel="noreferrer">
-                https://github.com/tranminhphat
+                github.com/tranminhphat
               </a>
             </span>
           </p>
           <p>
-            <b>linkedin: </b>
             <span>
               <a
                 href="https://www.linkedin.com/in/tranminhphat/"
                 target="_blank"
                 rel="noreferrer"
               >
-                https://www.linkedin.com/in/tranminhphat/{" "}
+                linkedin.com/in/tranminhphat{" "}
               </a>
             </span>
           </p>
@@ -68,7 +67,7 @@ const HomePage = () => (
 
       <div className="education">
         <div>
-          <h2>education</h2>
+          <h2 style={{textTransform: 'uppercase', fontWeight: 200, fontSize: '30px'}}>education</h2>
           <hr />
           <div
             style={{
@@ -84,11 +83,11 @@ const HomePage = () => (
         </div>
         <div>
           <ul>
-            <li>my major: Information System</li>
-            <li>my gpa: 7.65 / 10</li>
-            <li>my degree classification: Good</li>
+            <li>Major: Information System</li>
+            <li>GPA: 7.65 / 10</li>
+            <li>Degree Classification: Good</li>
             <li>
-              my thesis title: Building a web application help connecting the
+              Thesis Title: Building a web application help connecting the
               host of experience activities with the guest
             </li>
           </ul>
@@ -97,7 +96,7 @@ const HomePage = () => (
 
       <div className="work-experience">
         <div>
-          <h2>work experience</h2>
+          <h2 style={{textTransform: 'uppercase', fontWeight: 200, fontSize: '30px'}}>work experience</h2>
           <hr />
           <div
             style={{
@@ -127,7 +126,7 @@ const HomePage = () => (
 
       <div className="personal-project">
         <div>
-          <h2>personal project</h2>
+          <h2 style={{textTransform: 'uppercase', fontWeight: 200, fontSize: '30px'}}>personal project</h2>
           <hr />
           <div
             style={{
@@ -248,15 +247,16 @@ const HomePage = () => (
           </div>
                 <div className="personal-project">
         <div>
-          <h2>skills</h2>
+          <h2 style={{textTransform: 'uppercase', fontWeight: 200, fontSize: '30px'}}>skills</h2>
           <hr />
-          <div
-            style={{
-              marginBottom: "1rem",
-            }}
-          >
-            <p>programming languages: JavaScript, TypeScript</p>
-            <p>tools & technologies: HTML5, CSS3, React.js, Redux, Node.js, Express.js, MongoDB</p>
+          <div >
+            <h3>Technical Skills</h3>
+            <p>Programming Languages: JavaScript, TypeScript</p>
+            <p>Tools & Technologies: HTML5, CSS3, React.js, Redux, Node.js, Express.js, MongoDB</p>
+          </div>
+          <div >
+            <h3>Soft Skills</h3>
+            <p>Team-working, Self-learning</p>
           </div>
           </div>
           </div>
