@@ -252,7 +252,8 @@ const HomePage = () => (
           <div >
             <h3>Technical Skills</h3>
             <p>Programming Languages: JavaScript, TypeScript</p>
-            <p>Tools & Technologies: HTML5, CSS3, React.js, Redux, Node.js, Express.js, MongoDB</p>
+            <p>Tools & Technologies: HTML5, CSS3, React.js, Redux, React-Query, Node.js, Express.js</p>
+            <p>Database: MongoDB, PostgreSQL</p>
           </div>
           <div >
             <h3>Soft Skills</h3>
