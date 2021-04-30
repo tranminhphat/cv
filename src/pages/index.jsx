@@ -112,7 +112,7 @@ const HomePage = () => (
         </div>
         <div>
           <p>
-            As an intern developer, i was responsible for working with BA team,
+            As an intern developer, I was responsible for working with BA team,
             Designer and Back-end team to implementing web-app UI for company's
             project using Vue.js
           </p>
@@ -253,7 +253,7 @@ const HomePage = () => (
             <h3>Technical Skills</h3>
             <p>Programming Languages: JavaScript, TypeScript</p>
             <p>Tools & Technologies: HTML5, CSS3, React.js, Redux, React-Query, Node.js, Express.js</p>
-            <p>Database: MongoDB, PostgreSQL</p>
+            <p>Databases: MongoDB, PostgreSQL</p>
           </div>
           <div >
             <h3>Soft Skills</h3>
