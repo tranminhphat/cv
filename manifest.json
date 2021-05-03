@@ -2,5 +2,6 @@
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
   "static/avatar.png": "static/avatar-ccbb97cc69dfe82c13845ebcbd2577e4.png",
-  "static/favicon.ico": "static/favicon-976ce9c549693d3ad65dc9ab8850a9f6.ico"
+  "static/favicon.ico": "static/favicon-976ce9c549693d3ad65dc9ab8850a9f6.ico",
+  "static/my-face.jpg": "static/my-face-7e3cd0713100df7a0e86a91e66d43c7e.jpg"
 }
