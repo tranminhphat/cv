@@ -1,49 +1,50 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import FavIcon from '../static/avatar.png'
+import MyFace from '../static/my-face.jpg'
 
 const HomePage = () => (
   <div
     className="container"
     style={{
-      fontFamily: "Raleway, Helvetica, Arial, sans-serif",
+      fontFamily: "Inter,Helvetica, Arial, sans-serif",
       maxWidth: 720,
-      margin: "1rem auto",
+      margin: "2rem auto",
       lineHeight: 1.4,
       fontWeight: 300,
     }}
   >
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Phat Tran's CV</title>
+      <title>Phat Tran's resume</title>
       <meta name="author" content="Phat Tran" />
       <meta name="description" content="Phat Tran's curriculum vitae" />
       <link rel="icon" type="image/png" href={FavIcon} sizes="16x16" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     </Helmet>
 
     <main style={{ display: "flex", flexDirection: "column" }}>
-      <div className="name" style={{textAlign: 'center'}}>
-        <h1 style={{fontWeight: 100, fontSize: '50px'}}>Tran Minh <span style={{fontWeight: 500}}>Phat</span></h1>
+      <div style={{display: 'flex'}} id="me">
+        <h1 style={{fontSize: '50px', margin: '8px 0'}}>Phat Minh Tran</h1>
+        <div style={{marginLeft: '16px'}}>
+          <img src={MyFace} style={{borderRadius: '8px'}} width={80} height={80} alt="my avatar" />
+        </div>
       </div>
 
       <div
-        className="contact-info"
-        style={{ display: "flex", flexDirection: "column", marginTop: '-40px' }}
+        id="contact-info"  
+        style={{display: 'flex', justifyContent: 'space-between'}}
       >
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <div>
           <p>
             <span>Ho Chi Minh City, Viet Nam</span>
-          </p>
-          <p>
-            <span>(+84) 909771795</span>
           </p>
           <p>
             <span>phattm204@gmail.com</span>
           </p>
         </div>
-        <div style={{ display: "flex", justifyContent: "space-around", marginTop: '-20px' }}>
+        <div>
           <p>
             <span>
               <a href="https://github.com/tranminhphat" target="_blank" rel="noreferrer">
@@ -67,7 +68,7 @@ const HomePage = () => (
 
       <div className="education">
         <div>
-          <h2 style={{textTransform: 'uppercase', fontWeight: 200, fontSize: '30px'}}>education</h2>
+          <h2 style={{textTransform: 'uppercase', fontSize: '30px'}}>education</h2>
           <hr />
           <div
             style={{
@@ -86,17 +87,13 @@ const HomePage = () => (
             <li>Major: Information System</li>
             <li>GPA: 7.65 / 10</li>
             <li>Degree Classification: Good</li>
-            <li>
-              Thesis Title: Building a web application help connecting the
-              host of experience activities with the guest
-            </li>
           </ul>
         </div>
       </div>
 
       <div className="work-experience">
         <div>
-          <h2 style={{textTransform: 'uppercase', fontWeight: 200, fontSize: '30px'}}>work experience</h2>
+          <h2 style={{textTransform: 'uppercase', fontSize: '30px'}}>work experience</h2>
           <hr />
           <div
             style={{
@@ -126,7 +123,7 @@ const HomePage = () => (
 
       <div className="personal-project">
         <div>
-          <h2 style={{textTransform: 'uppercase', fontWeight: 200, fontSize: '30px'}}>personal project</h2>
+          <h2 style={{textTransform: 'uppercase', fontSize: '30px'}}>personal project</h2>
           <hr />
           <div
             style={{
@@ -247,7 +244,7 @@ const HomePage = () => (
           </div>
                 <div className="personal-project">
         <div>
-          <h2 style={{textTransform: 'uppercase', fontWeight: 200, fontSize: '30px'}}>skills</h2>
+          <h2 style={{textTransform: 'uppercase', fontSize: '30px'}}>skills</h2>
           <hr />
           <div >
             <h3>Technical Skills</h3>
