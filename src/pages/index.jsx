@@ -25,11 +25,11 @@ const HomePage = () => (
     </Helmet>
 
     <main style={{ display: "flex", flexDirection: "column" }}>
-      <div style={{display: 'flex'}} id="me">
-        <h1 style={{fontSize: '50px', margin: '8px 0'}}>Phat Minh Tran</h1>
-        <div style={{marginLeft: '16px'}}>
+      <div id="me">
+        <div>
           <img src={MyFace} style={{borderRadius: '8px'}} width={80} height={80} alt="my avatar" />
         </div>
+        <h1 style={{fontSize: '50px', margin: '8px 0'}}>Phat Minh Tran</h1>
       </div>
 
       <div
@@ -41,7 +41,7 @@ const HomePage = () => (
             <span>Ho Chi Minh City, Viet Nam</span>
           </p>
           <p>
-            <span>phattm204@gmail.com</span>
+            <span style={{textDecoration: "underline"}}>phattm204@gmail.com</span>
           </p>
         </div>
         <div>
@@ -66,7 +66,7 @@ const HomePage = () => (
         </div>
       </div>
 
-      <div className="education">
+      <div id="education">
         <div>
           <h2 style={{textTransform: 'uppercase', fontSize: '30px'}}>education</h2>
           <hr />
@@ -91,7 +91,7 @@ const HomePage = () => (
         </div>
       </div>
 
-      <div className="work-experience">
+      <div id="work-experience">
         <div>
           <h2 style={{textTransform: 'uppercase', fontSize: '30px'}}>work experience</h2>
           <hr />
@@ -111,20 +111,41 @@ const HomePage = () => (
           <p>
             As an intern developer, I was responsible for working with BA team,
             Designer and Back-end team to implementing web-app UI for company's
-            project using Vue.js
+            project using Vue.js.
           </p>
           <p>
             I also did a little bit mobile development by implementing
             mobile-app UI for company's project using React Native and
-            NativeScript
+            NativeScript.
           </p>
+            <p><b>Technology used: </b>Vue.js, Nuxt.js, Element UI, React Native, NativeScript, Firebase.</p>
         </div>
       </div>
 
-      <div className="personal-project">
+      <div id="personal-project">
         <div>
           <h2 style={{textTransform: 'uppercase', fontSize: '30px'}}>personal project</h2>
           <hr />
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              marginBottom: "1rem",
+            }}
+          >
+            <h3>Tripsy</h3>
+            <i>Feb 2021 - now</i>
+          </div>
+          <div>
+            <p>
+              Tripsy is an web application built with React.js and Node.js that helps connecting the host of experience activities with the guest.
+            </p>
+            <p>
+             The main purpose of this application is providing a platform where the host can create experience activities that they are expert in that field and the guest can join any of that activities and gain the real experience quickly and conveniently.
+            </p>
+            <p><b>Technology used: </b>TypeScript, React, React Router, React Query, Formik, Material UI, TailwindCSS, Node.js, Express, MongoDB, Mongoose, Cloudinary API, Stripe API, Mapbox API.</p>
+          </div>
           <div
             style={{
               display: "flex",
@@ -155,8 +176,9 @@ const HomePage = () => (
               The currently implemented algorithms: Bubble Sort, Selection Sort,
               Insertion Sort, Merge Sort, Quick Sort, Heap Sort.
             </p>
+            <p><b>Technology used: </b>React, React Router, React Strap, Firebase.</p>
             <p>
-              Demo:{" "}
+              <b>Demo:{" "}</b>
               <a href="https://phazel.firebaseapp.com/sortalgo" target="_blank" rel="noreferrer">
                 https://phazel.firebaseapp.com/sortalgo
               </a>
@@ -190,8 +212,9 @@ const HomePage = () => (
               User can find the statistical information by country, especially
               by province of Viet Nam.
             </p>
+            <p><b>Technology used: </b>React, React Router, React Simple Maps, Ant Design.</p>
             <p>
-              Demo:{" "}
+              <b>Demo:{" "}</b>
               <a
                 href="https://tranminhphat.github.io/covid19-stats/"
                 target="_blank"
@@ -229,8 +252,9 @@ const HomePage = () => (
               is also able to tracking or cancle orders, manage their own
               personal information.
             </p>
+            <p><b>Technology used: </b>React Native, Material UI, Firebase.</p>
             <p>
-              Demo:{" "}
+              <b>Demo:{" "}</b>
               <span>
                 <a
                   href="https://drive.google.com/drive/folders/13oKOes_6y61P3mtns4zfk_CzuZu8ZZGa?usp=sharing"
@@ -242,26 +266,26 @@ const HomePage = () => (
               </span>
             </p>
           </div>
-                <div className="personal-project">
-        <div>
-          <h2 style={{textTransform: 'uppercase', fontSize: '30px'}}>skills</h2>
-          <hr />
-          <div >
-            <h3>Technical Skills</h3>
-            <p>Programming Languages: JavaScript, TypeScript</p>
-            <p>Tools & Technologies: HTML5, CSS3, React.js, Redux, React-Query, Node.js, Express.js</p>
-            <p>Databases: MongoDB, PostgreSQL</p>
+        <div id="personal-project">
+          <div>
+            <h2 style={{textTransform: 'uppercase', fontSize: '30px'}}>skills</h2>
+            <hr />
+            <div >
+              <h3>Technical Skills</h3>
+              <p>Programming Languages: JavaScript, TypeScript.</p>
+              <p>Tools & Technologies: HTML5, CSS3, SASS, React.js, Gatsby, React Router, React Query, React Redux, Node.js, Express.js, Mongoose.</p>
+              <p>Databases: MongoDB, PostgreSQL.</p>
+            </div>
+            <div >
+              <h3>Soft Skills</h3>
+              <p>Team-working, Self-learning.</p>
+            </div>
+            </div>
+            </div>
           </div>
-          <div >
-            <h3>Soft Skills</h3>
-            <p>Team-working, Self-learning</p>
-          </div>
-          </div>
-          </div>
-        </div>
       </div>
     </main>
   </div>
 )
 
-export default HomePage
+export default HomePage;
