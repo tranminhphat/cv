@@ -118,7 +118,7 @@ const HomePage = () => (
             mobile-app UI for company's project using React Native and
             NativeScript.
           </p>
-            <p><b>Technology used: </b>Vue.js, Nuxt.js, Element UI, React Native, NativeScript, Firebase.</p>
+            <p><b>Technologies used: </b>Vue.js, Nuxt.js, Element UI, React Native, NativeScript, Firebase.</p>
         </div>
       </div>
 
@@ -144,7 +144,7 @@ const HomePage = () => (
             <p>
              The main purpose of this application is providing a platform where the host can create experience activities that they are expert in that field and the guest can join any of that activities and gain the real experience quickly and conveniently.
             </p>
-            <p><b>Technology used: </b>TypeScript, React, React Router, React Query, Formik, Material UI, TailwindCSS, Node.js, Express, MongoDB, Mongoose, Cloudinary API, Stripe API, Mapbox API.</p>
+            <p><b>Technologies used: </b>TypeScript, React, React Router, React Query, Formik, Material UI, TailwindCSS, Node.js, Express, MongoDB, Mongoose, Cloudinary API, Stripe API, Mapbox API.</p>
           </div>
           <div
             style={{
@@ -176,7 +176,7 @@ const HomePage = () => (
               The currently implemented algorithms: Bubble Sort, Selection Sort,
               Insertion Sort, Merge Sort, Quick Sort, Heap Sort.
             </p>
-            <p><b>Technology used: </b>React, React Router, React Strap, Firebase.</p>
+            <p><b>Technologies used: </b>React, React Router, React Strap, Firebase.</p>
             <p>
               <b>Demo:{" "}</b>
               <a href="https://phazel.firebaseapp.com/sortalgo" target="_blank" rel="noreferrer">
@@ -212,7 +212,7 @@ const HomePage = () => (
               User can find the statistical information by country, especially
               by province of Viet Nam.
             </p>
-            <p><b>Technology used: </b>React, React Router, React Simple Maps, Ant Design.</p>
+            <p><b>Technologies used: </b>React, React Router, React Simple Maps, Ant Design.</p>
             <p>
               <b>Demo:{" "}</b>
               <a
@@ -252,7 +252,7 @@ const HomePage = () => (
               is also able to tracking or cancle orders, manage their own
               personal information.
             </p>
-            <p><b>Technology used: </b>React Native, Material UI, Firebase.</p>
+            <p><b>Technologies used: </b>React Native, Material UI, Firebase.</p>
             <p>
               <b>Demo:{" "}</b>
               <span>
