@@ -1,8 +1,8 @@
 {
   "name": "cv-tranminhphat",
   "private": true,
-  "description": "Phat Tran's CV made with Gatsby",
-  "version": "0.1.0",
+  "description": "Phat Tran's CV",
+  "version": "0.2.0",
   "author": "Phat Tran <phattm204@gmail.com>",
   "dependencies": {
     "gatsby": "^2.32.8",
