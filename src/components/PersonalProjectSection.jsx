@@ -5,7 +5,7 @@ const PersonalProjectSection = () => {
     <div id="personal-project">
       <div>
         <h2 style={{ textTransform: "uppercase", fontSize: "30px" }}>
-          personal project
+          personal projects
         </h2>
         <hr />
         <div
@@ -13,7 +13,6 @@ const PersonalProjectSection = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            marginBottom: "1rem",
           }}
         >
           <h3>Tripsy</h3>
@@ -41,7 +40,6 @@ const PersonalProjectSection = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            marginBottom: "1rem",
           }}
         >
           <h3>Phazel - An algorithm visualizer</h3>
@@ -86,7 +84,6 @@ const PersonalProjectSection = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            marginBottom: "1rem",
           }}
         >
           <h3>Covid-19 Statistics</h3>
@@ -129,7 +126,6 @@ const PersonalProjectSection = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            marginBottom: "1rem",
           }}
         >
           <h3>Bookstore</h3>

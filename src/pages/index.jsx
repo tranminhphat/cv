@@ -14,7 +14,7 @@ const HomePage = () => (
       fontFamily: "Inter,Helvetica, Arial, sans-serif",
       maxWidth: 720,
       margin: "2rem auto",
-      lineHeight: 1.4,
+      lineHeight: 1.3,
       fontWeight: 300,
     }}
   >
@@ -30,7 +30,7 @@ const HomePage = () => (
 
     <main style={{ display: "flex", flexDirection: "column" }}>
 			<Header />
-			<ContactInfo />			
+			<ContactInfo />
 			<EducationSection />
 			<WorkExperienceSection />
 			<PersonalProjectSection />
