@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import ContactInfo from '../components/ContactInfo'
 import EducationSection from '../components/EducationSection'
 import Header from '../components/Header'
+import IntroductionSection from '../components/Introduction'
 import PersonalProjectSection from '../components/PersonalProjectSection'
 import WorkExperienceSection from '../components/WorkExperienceSection'
 import FavIcon from '../static/avatar.png'
@@ -31,6 +32,7 @@ const HomePage = () => (
     <main style={{ display: "flex", flexDirection: "column" }}>
 			<Header />
 			<ContactInfo />
+      <IntroductionSection />
 			<EducationSection />
 			<WorkExperienceSection />
 			<PersonalProjectSection />
