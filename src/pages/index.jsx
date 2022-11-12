@@ -37,6 +37,12 @@ const HomePage = () => (
 			<WorkExperienceSection />
 			<PersonalProjectSection />
   	</main>
+
+    <hr />
+
+    <footer>
+      <p style={{textAlign: "center"}}><i>&hearts; Thanks for reading, I'm looking forward to hearing from you. &hearts;</i></p>
+      </footer>
 	</div>
 )
 
