@@ -14,7 +14,7 @@ const HomePage = () => (
     style={{
       fontFamily: "Inter,Helvetica, Arial, sans-serif",
       maxWidth: 720,
-      margin: "2rem auto",
+      margin: "1rem auto",
       lineHeight: 1.3,
       fontWeight: 300,
     }}
