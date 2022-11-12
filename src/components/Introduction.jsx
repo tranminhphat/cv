@@ -17,7 +17,7 @@ const IntroductionSection = () => {
           back-end and system operations. I'm quite confident that I can quickly catch up with languages, technologies and tools in need.
         </p>
         <p>
-          My career goal is to become a thoughtful software engineer and deliver high quality product.
+          My career goal is to become a thoughtful software engineer and deliver high quality products.
         </p>
       </div>
     </div>
