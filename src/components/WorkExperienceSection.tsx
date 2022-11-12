@@ -16,7 +16,7 @@ const WorkExperienceSection = () => {
           }}
         >
           <h3>Software Engineer at Kobiton</h3>
-          <i>May 2021 - current</i>
+          <i>Sep 2021 - current</i>
         </div>
         <div>
           <p>
